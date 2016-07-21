@@ -25,7 +25,7 @@ action= ActionChains(driver)
 
 
 #replace the username of some friend with the username of a friend
-driver.get("https://www.facebook.com/messages/aarohi.bhatt.35")
+driver.get("https://www.facebook.com/messages/\\\\\username of one of your friend")
 search = driver.find_elements_by_xpath("//div/div[1]/div/div[2]/div[1]/div[2]/span/span/input")
 name = raw_input("Whose messages to read?")
 search[0].send_keys(name)

@@ -17,5 +17,8 @@ print_recent_messages.py:
   
 your_post.py:
   This file will post what you write on your page
+
+read_unread_messages.py:
+  This file will print all the unread messages to the terminal(messages from anyone, even if it's more than one)
   
 *The files that interact with Facebook will ask for your login details when you run the program
